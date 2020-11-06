@@ -17,9 +17,11 @@ html,body{
 .center{
 	width: 1200px;
 	margin: 0 auto;
+	padding: 0 2%;
 }
 
 .header{
+	min-width: 1200px;
 	width: 100%;
 	height: 60px;
 	background-color: #212343;
@@ -31,6 +33,7 @@ html,body{
 
 .container-banner{
 	width: 100%;
+	min-width: 1200px;
 	height: 557px;
 	background-image:url('../images/header_bg.png');
 	background-size: cover;
@@ -126,6 +129,7 @@ html,body{
     color: #ffffff;
 }
 .container-2 {
+	min-width: 1200px;
     padding: 40px 0;
     background-color: #DDDDDD;
     text-align: center;
@@ -147,4 +151,48 @@ html,body{
     margin-left: 20px;
     background-image: url('../images/arrow.png');
     background-size: 100% 100%;
+}
+.section-1 {
+	padding: 90px 0;
+}
+
+.section-1 h2 {
+	text-align: center;
+	color: #462663;
+	font-weight: normal;
+}
+
+.container-section {
+	margin-top: 40px;
+}
+.container-section {
+	text-align: center;
+}
+
+.container-single {
+	float: left;
+	margin-right: -4px;
+	width: 33.333%;
+	padding: 30px;
+}
+
+.container-single p {
+	padding: 10px 25px;
+	text-align: justify;
+}
+
+.container-single img{
+	width: 70px;
+}
+
+.footer {
+	clear: both;
+	border-top: 4px solid #888888;
+	padding: 60px 0;
+	text-align: center;
+	color: #888888;
+}
+
+.footer P {
+	margin-top: 8px;
 }
